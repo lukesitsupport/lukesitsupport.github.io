@@ -1,4 +1,3 @@
-/* Website template by freewebsitetemplates.com */
 html {
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -447,23 +446,41 @@ img {
 }
 
 /*------------------------------ Services Page ------------------------------*/
+#services {
+    
+}
+
 #services p {
-	clear: both;
+    clear: both;
 }
+
 #services img {
-	float: left;
-	margin: 0 40px 20px 0;
+    float: left;
+    margin: 0 40px 20px 0;
 }
+
 #services ul {
-	color: #646c6f;
-	padding: 0;
+    color: #646c6f;
+    padding: 0;
 }
+
 #services ul li {
-	font-size: 14px;
-	line-height: 20px;
-	padding: 0 0 20px;
-	text-align: justify;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 0 20px;
+    text-align: justify;
 }
+
+.tryhackme-badge {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tryhackme-badge img {
+    width: 150px;
+    height: 150px;
+}
+
 
 /*------------------------------ Solutions Page ------------------------------*/
 #solutions ul {
