@@ -1,82 +1,102 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
+
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Luke's IT Support</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />	
-	<style>
-		#logo {
-			display: flex;
-			justify-content: center;
-		}
-	   </style> 	
-	
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Luke's IT Support</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
+    <style>
+        #logo {
+            display: flex;
+            justify-content: center;
+        }
+
+        .tryhackme-badge {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .tryhackme-badge img {
+            width: 150px;
+            height: 150px;
+        }
+    </style>
 </head>
 
 <body>
-	<div id="header">
-		<a href="index.html" id="logo"><img src="images/logo.jpg" alt="LOGO" /></a>
-		<div id="navigation">
-			<ul>
-				<li class="first"><a href="index.html">Home</a></li>
-				<li><a href="about.html">About Me</a></li>
-				<li class="selected"><a href="services.html">Services</a></li>
-				<li><a href="solutions.html">Solutions</a></li>
-				<li><a href="support.html">Support</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				
-			</ul>
-		</div>
-		<div id="search">
-			<form action="" method="">
-				<input type="text" value="Search" class="txtfield" onblur="javascript:if(this.value==''){this.value=this.defaultValue;}" onfocus="javascript:if(this.value==this.defaultValue){this.value='';}" />
-				<input type="submit" value="" class="button" />
-			</form>
-		</div>
-	</div> <!-- /#header -->
-	<div id="contents">
-		<div class="background">
-			<div id="services">
-				<h2>Welcome to Luke's IT Support</h2>
-				<p>
-					I specialize in network security, computer support, and phone support. With experience gained from online courses like TryHackMe, I am and will be well-equipped to handle all your IT needs.
-				</p>
-				<img src="images/discussing.jpg" alt="ServiceImg" />
-				<ul>
-					<li>
-						<b>Network Security Solutions</b>
-						Protect your business with my cutting-edge network security solutions. I will ensure your data stays secure and your operations run smoothly.
-					</li>
-					<li>
-						<b>Expert Computer Support</b>
-						Encounter a computer issue? Our experts are here to help. From troubleshooting to optimization, we've got you covered.
-					</li>
-					<li>
-						<b>Reliable Phone Support</b>
-						Need quick assistance? I am ready to assist you with any IT-related queries or concerns over the phone or video call.
-					</li>
-					<script src="https://tryhackme.com/badge/2026120"></script>
-				</ul>
-				<p>
-					At Luke's IT Support, I pride myself on my commitment to quality service. I have experience and I am dedicated to providing top-notch IT solutions tailored to your needs.
-				</p>
-				<p>
-					I'm here to address your IT challenges, whether you're a business or an individual. Feel free to contact me for any inquiries or assistance you may require.
-				</p>
-			</div>
-		</div>
-	</div> <!-- /#contents -->
-	<div id="footer">
-		<ul class="contacts">
-			<h3>Contact Us</h3>
-			<li><span>Email</span><p>: lukedickinson49@gmail.com</p></li>
-			<li><span>Address</span><p>: Cornville, AZ Postal 86325</p></li>
-			<li><span>Phone</span><p>: (619)-888-2739</p></li>
-		</ul>
-		
-		
-		<span class="footnote">&copy; Copyright &copy; 2023. All rights reserved</span>
-	</div> <!-- /#footer -->
+    <div id="header">
+        <a href="index.html" id="logo"><img src="images/logo.jpg" alt="LOGO" /></a>
+        <div id="navigation">
+            <ul>
+                <li class="first"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li class="selected"><a href="services.html">Services</a></li>
+                <li><a href="solutions.html">Solutions</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div id="search">
+            <form action="" method="">
+                <input type="text" value="Search" class="txtfield" onblur="javascript:if(this.value==''){this.value=this.defaultValue;}" onfocus="javascript:if(this.value==this.defaultValue){this.value='';}" />
+                <input type="submit" value="" class="button" />
+            </form>
+        </div>
+    </div>
+    <!-- /#header -->
+    <div id="contents">
+        <div class="background">
+            <div id="services">
+                <h2>Welcome to Luke's IT Support</h2>
+                <p>
+                    I specialize in network security, computer support, and phone support. With experience gained from online courses like TryHackMe, I am and will be well-equipped to handle all your IT needs.
+                </p>
+                <img src="images/discussing.jpg" alt="ServiceImg" />
+                <ul>
+                    <li>
+                        <b>Network Security Solutions</b>
+                        Protect your business with my cutting-edge network security solutions. I will ensure your data stays secure and your operations run smoothly.
+                    </li>
+                    <li>
+                        <b>Expert Computer Support</b>
+                        Encounter a computer issue? Our experts are here to help. From troubleshooting to optimization, we've got you covered.
+                    </li>
+                    <li>
+                        <b>Reliable Phone Support</b>
+                        Need quick assistance? I am ready to assist you with any IT-related queries or concerns over the phone or video call.
+                    </li>
+                    <div class="tryhackme-badge">
+                        <img src="https://tryhackme-badges.s3.amazonaws.com/LukeDickinson.png" alt="TryHackMe Badge">
+                    </div>
+                </ul>
+                <p>
+                    At Luke's IT Support, I pride myself on my commitment to quality service. I have experience and I am dedicated to providing top-notch IT solutions tailored to your needs.
+                </p>
+                <p>
+                    I'm here to address your IT challenges, whether you're a business or an individual. Feel free to contact me for any inquiries or assistance you may require.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- /#contents -->
+    <div id="footer">
+        <ul class="contacts">
+            <h3>Contact Us</h3>
+            <li><span>Email</span>
+                <p>: lukedickinson49@gmail.com</p>
+            </li>
+            <li><span>Address</span>
+                <p>: Cornville, AZ Postal 86325</p>
+            </li>
+            <li><span>Phone</span>
+                <p>: (619)-888-2739</p>
+            </li>
+        </ul>
+        <span class="footnote">&copy; Copyright &copy; 2023. All rights reserved</span>
+    </div>
+    <!-- /#footer -->
 </body>
+
 </html>
+
